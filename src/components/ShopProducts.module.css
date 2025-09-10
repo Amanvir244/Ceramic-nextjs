@@ -1,0 +1,60 @@
+.shopContainer {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #fff;
+  padding: 30px 20px;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #444;
+  transition: background 0.2s;
+}
+
+.sidebar li:hover {
+  background-color: #eee;
+}
+
+.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.shopPage {
+  flex: 1;
+  padding: 60px 40px;
+}
+
+.shopTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}

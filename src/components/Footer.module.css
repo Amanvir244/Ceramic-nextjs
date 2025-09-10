@@ -1,0 +1,37 @@
+.footerBar {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 40px 60px;
+  margin-top: 10px;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  align-items: start;
+}
+
+.footerGrid p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.socials :global(svg) {
+  font-size: 1.3rem;
+  color: #b2f5ea;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.socials :global(svg:hover) {
+  transform: scale(1.1);
+  color: #a0f0d0;
+}

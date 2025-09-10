@@ -1,0 +1,8 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #fafafa;
+  gap: 40px;
+  font-family: "Arial", sans-serif;
+}

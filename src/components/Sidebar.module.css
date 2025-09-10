@@ -1,0 +1,52 @@
+.sidebar {
+  width: 30%;
+  padding: 40px;
+  background: #fff;
+}
+
+.sidebarImg {
+  width: 200px;
+  height: 150px;
+  margin: 0 auto 10px auto;
+  display: block;
+}
+
+.socialLabel {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.4rem;
+  color: #23423f;
+  margin-bottom: 30px;
+}
+
+.newsletter h3 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsletter input,
+.newsletter textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.newsletter button {
+  background-color: #8c3a3a;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

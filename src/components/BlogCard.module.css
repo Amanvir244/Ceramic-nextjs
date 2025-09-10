@@ -1,0 +1,55 @@
+.blogCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.blogImage {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.blogImage:hover {
+  transform: scale(1.05);
+}
+
+.blogContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blogContent h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.blogDate {
+  font-size: 0.95rem;
+  color: #999;
+  margin-bottom: 12px;
+}
+
+.blogDescription {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.readMore {
+  font-size: 1rem;
+  color: #b4444c;
+  font-weight: 500;
+  text-decoration: none;
+}

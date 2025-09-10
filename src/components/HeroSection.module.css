@@ -1,0 +1,39 @@
+.heroSection {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 90vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.heroContent {
+  max-width: 800px;
+}
+
+.heroContent h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.heroContent p {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.heroBtn {
+  padding: 15px 40px;
+  background-color: #914344;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}

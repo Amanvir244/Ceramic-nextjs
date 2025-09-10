@@ -1,0 +1,35 @@
+.paginatedBlogWrapper {
+  padding: 30px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.blogGrid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.pagination {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.pagination button {
+  border: none;
+  background: none;
+  color: #888;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 4px 10px;
+  transition: all 0.2s ease;
+}
+
+.active {
+  color: #b4444c;
+  font-weight: bold;
+  border-bottom: 2px solid #b4444c;
+}

@@ -1,0 +1,49 @@
+.pageCard {
+  width: 100%;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.pageImage {
+  width: 100%;
+  height: 100%;
+}
+
+.pageInfo {
+  padding: 16px 0;
+  text-align: left;
+}
+
+.pageInfo h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.pageDate {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.pageDesc {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.pageLink {
+  color: #b4444c;
+  text-decoration: none;
+  font-weight: 500;
+}
