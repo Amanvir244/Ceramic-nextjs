@@ -13,8 +13,21 @@ export default function AccountPage() {
   const username = session?.user?.name || "Guest";
 
   const handleLogout = async () => {
+    
     await signOut({ redirect: false });
-    router.push("/login"); 
+
+    
+    localStorage.clear();
+    sessionStorage.clear();
+
+    
+    if ("caches" in window) {
+      const names = await caches.keys();
+      await Promise.all(names.map(name => caches.delete(name)));
+    }
+
+  
+    router.push("/login");
   };
 
   return (
